@@ -1,0 +1,26 @@
+.menu_backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100vw;
+  height: 100vh;
+  z-index: 300;
+}
+
+.menu_navbarbgcolor {
+  background-color: #000;
+  height: 76px;
+  margin: 0;
+}
+
+.menu_container {
+  position: absolute;
+  background-color: #fff;
+  width: 100%;
+  /* margin-top: 100px; */
+  /* padding: 2rem; */
+  box-sizing: border-box;
+  max-height: 550px;
+  overflow: scroll;
+}

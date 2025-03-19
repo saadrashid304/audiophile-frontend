@@ -1,0 +1,10 @@
+.productListing_container {
+  margin: 10%;
+}
+
+@media screen and (max-width: 375px) {
+  .productListing_container {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}

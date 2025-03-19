@@ -1,0 +1,467 @@
+.imageGallery_mainContainer {
+  margin: 0 10% 10% 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 592px;
+}
+
+.imageGallery_leftContainer {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.imageGallery_smallPicture {
+  width: 445px;
+  height: 280px;
+  border-radius: 10px;
+}
+
+.imageGallery_smallPicture img {
+  width: 445px;
+  height: 280px;
+  border-radius: 10px;
+}
+
+.imageGallery_largePicture {
+  width: 635px;
+  height: 592px;
+}
+
+.imageGallery_largePicture img {
+  width: 635px;
+  height: 592px;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 1370px) {
+  .imageGallery_smallPicture {
+    width: 430px;
+    height: 280px;
+    border-radius: 10px;
+  }
+
+  .imageGallery_smallPicture img {
+    width: 430px;
+    height: 280px;
+    border-radius: 10px;
+  }
+
+  .imageGallery_largePicture {
+    width: 620px;
+    height: 592px;
+  }
+
+  .imageGallery_largePicture img {
+    width: 605px;
+    height: 592px;
+    border-radius: 10px;
+  }
+}
+
+@media screen and (max-width: 1330px) {
+  .imageGallery_smallPicture {
+    width: 410px;
+    height: 280px;
+    border-radius: 10px;
+  }
+
+  .imageGallery_smallPicture img {
+    width: 410px;
+    height: 280px;
+    border-radius: 10px;
+  }
+
+  .imageGallery_largePicture {
+    width: 600px;
+    height: 592px;
+  }
+
+  .imageGallery_largePicture img {
+    width: 605px;
+    height: 592px;
+    border-radius: 10px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .imageGallery_smallPicture {
+    width: 385px;
+    height: 280px;
+    border-radius: 10px;
+  }
+
+  .imageGallery_smallPicture img {
+    width: 385px;
+    height: 280px;
+    border-radius: 10px;
+  }
+
+  .imageGallery_largePicture {
+    width: 575px;
+    height: 592px;
+  }
+
+  .imageGallery_largePicture img {
+    width: 575px;
+    height: 592px;
+    border-radius: 10px;
+  }
+}
+
+@media screen and (max-width: 1210px) {
+  .imageGallery_leftContainer {
+    height: 542px;
+  }
+
+  .imageGallery_smallPicture {
+    width: 350px;
+    height: 255px;
+    border-radius: 10px;
+  }
+
+  .imageGallery_smallPicture img {
+    width: 350px;
+    height: 255px;
+    border-radius: 10px;
+  }
+
+  .imageGallery_largePicture {
+    width: 540px;
+    height: 542px;
+  }
+
+  .imageGallery_largePicture img {
+    width: 540px;
+    height: 542px;
+    border-radius: 10px;
+  }
+}
+
+@media screen and (max-width: 1130px) {
+  .imageGallery_leftContainer {
+    height: 542px;
+  }
+
+  .imageGallery_smallPicture {
+    width: 310px;
+    height: 255px;
+    border-radius: 10px;
+  }
+
+  .imageGallery_smallPicture img {
+    width: 310px;
+    height: 255px;
+    border-radius: 10px;
+  }
+
+  .imageGallery_largePicture {
+    width: 500px;
+    height: 542px;
+  }
+
+  .imageGallery_largePicture img {
+    width: 500px;
+    height: 542px;
+    border-radius: 10px;
+  }
+}
+
+@media screen and (max-width: 1030px) {
+  .imageGallery_leftContainer {
+    height: 460px;
+  }
+
+  .imageGallery_smallPicture {
+    width: 260px;
+    height: 215px;
+    border-radius: 10px;
+  }
+
+  .imageGallery_smallPicture img {
+    width: 260px;
+    height: 215px;
+    border-radius: 10px;
+  }
+
+  .imageGallery_largePicture {
+    width: 450px;
+    height: 460px;
+  }
+
+  .imageGallery_largePicture img {
+    width: 450px;
+    height: 460px;
+    border-radius: 10px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .imageGallery_mainContainer {
+    height: 368px;
+  }
+
+  .imageGallery_leftContainer {
+    height: 368px;
+  }
+
+  .imageGallery_smallPicture {
+    width: 277px;
+    height: 174px;
+    border-radius: 10px;
+  }
+
+  .imageGallery_smallPicture img {
+    width: 277px;
+    height: 174px;
+    border-radius: 10px;
+  }
+
+  .imageGallery_largePicture {
+    width: 395px;
+    height: 368px;
+  }
+
+  .imageGallery_largePicture img {
+    width: 395px;
+    height: 368px;
+    border-radius: 10px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .imageGallery_mainContainer {
+    height: 318px;
+  }
+
+  .imageGallery_leftContainer {
+    height: 318px;
+  }
+
+  .imageGallery_smallPicture {
+    width: 227px;
+    height: 124px;
+    border-radius: 10px;
+  }
+
+  .imageGallery_smallPicture img {
+    width: 227px;
+    height: 124px;
+    border-radius: 10px;
+  }
+
+  .imageGallery_largePicture {
+    width: 345px;
+    height: 318px;
+  }
+
+  .imageGallery_largePicture img {
+    width: 345px;
+    height: 318px;
+    border-radius: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .imageGallery_mainContainer {
+    height: 368px;
+    margin: 0 5% 10% 5%;
+  }
+
+  .imageGallery_leftContainer {
+    height: 368px;
+  }
+
+  .imageGallery_smallPicture {
+    width: 277px;
+    height: 174px;
+    border-radius: 10px;
+  }
+
+  .imageGallery_smallPicture img {
+    width: 277px;
+    height: 174px;
+    border-radius: 10px;
+  }
+
+  .imageGallery_largePicture {
+    width: 395px;
+    height: 368px;
+  }
+
+  .imageGallery_largePicture img {
+    width: 395px;
+    height: 368px;
+    border-radius: 10px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .imageGallery_mainContainer {
+    height: 368px;
+    margin: 0 5% 10% 5%;
+  }
+
+  .imageGallery_leftContainer {
+    height: 368px;
+  }
+
+  .imageGallery_smallPicture {
+    width: 260px;
+    height: 174px;
+    border-radius: 10px;
+  }
+
+  .imageGallery_smallPicture img {
+    width: 260px;
+    height: 174px;
+    border-radius: 10px;
+  }
+
+  .imageGallery_largePicture {
+    width: 380px;
+    height: 368px;
+  }
+
+  .imageGallery_largePicture img {
+    width: 380px;
+    height: 368px;
+    border-radius: 10px;
+  }
+}
+
+@media screen and (max-width: 715px) {
+  .imageGallery_mainContainer {
+    height: 368px;
+    margin: 0 5% 10% 5%;
+  }
+
+  .imageGallery_leftContainer {
+    height: 368px;
+  }
+
+  .imageGallery_smallPicture {
+    width: 230px;
+    height: 174px;
+    border-radius: 10px;
+  }
+
+  .imageGallery_smallPicture img {
+    width: 230px;
+    height: 174px;
+    border-radius: 10px;
+  }
+
+  .imageGallery_largePicture {
+    width: 350px;
+    height: 368px;
+  }
+
+  .imageGallery_largePicture img {
+    width: 350px;
+    height: 368px;
+    border-radius: 10px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .imageGallery_mainContainer {
+    height: 320px;
+    margin: 0 5% 10% 5%;
+  }
+
+  .imageGallery_leftContainer {
+    height: 320px;
+  }
+
+  .imageGallery_smallPicture {
+    width: 200px;
+    height: 144px;
+    border-radius: 10px;
+  }
+
+  .imageGallery_smallPicture img {
+    width: 200px;
+    height: 144px;
+    border-radius: 10px;
+  }
+
+  .imageGallery_largePicture {
+    width: 330px;
+    height: 320px;
+  }
+
+  .imageGallery_largePicture img {
+    width: 330px;
+    height: 320px;
+    border-radius: 10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .imageGallery_mainContainer {
+    height: auto;
+    flex-direction: column;
+  }
+
+  .imageGallery_leftContainer {
+    width: 100%;
+    height: auto;
+  }
+
+  .imageGallery_smallPicture {
+    width: 100%;
+    height: 250px;
+    margin-bottom: 50px;
+  }
+
+  .imageGallery_smallPicture img {
+    width: 100%;
+    height: 250px;
+  }
+
+  .imageGallery_largePicture {
+    width: 100%;
+    height: 450px;
+  }
+
+  .imageGallery_largePicture img {
+    width: 100%;
+    height: 450px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .imageGallery_mainContainer {
+    height: auto;
+    flex-direction: column;
+  }
+
+  .imageGallery_leftContainer {
+    width: 100%;
+    height: auto;
+  }
+
+  .imageGallery_smallPicture {
+    width: 100%;
+    height: 174px;
+    margin-bottom: 20px;
+  }
+
+  .imageGallery_smallPicture img {
+    width: 100%;
+    height: 174px;
+  }
+
+  .imageGallery_largePicture {
+    width: 100%;
+    height: 368px;
+  }
+
+  .imageGallery_largePicture img {
+    width: 100%;
+    height: 368px;
+  }
+}

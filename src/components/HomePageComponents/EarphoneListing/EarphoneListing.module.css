@@ -1,0 +1,125 @@
+.homePage_earphoneListing {
+  /* width: 80%; */
+  height: 320px;
+  margin: 0 10% 13% 10%;
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Manrope", sans-serif;
+}
+
+.homePage_earphoneListing picture {
+  width: 49%;
+  height: 320px;
+  border-radius: 10px;
+}
+
+.homePage_earphoneListingImage {
+  width: 100%;
+  height: 320px;
+  border-radius: 10px;
+}
+
+.homePage_earphoneListingTextContainer {
+  background-color: #e0e0e05f;
+  width: 49%;
+  height: 320px;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.homePage_earphoneListingText {
+  margin-left: 4em;
+}
+
+.homePage_earphoneListingText h2 {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.homePage_earphoneListingText button {
+  background-color: transparent;
+  color: #000;
+  border: 1px solid #000;
+  text-transform: uppercase;
+  font-size: 0.93em;
+  font-weight: 500;
+  padding: 1em 2em;
+  cursor: pointer;
+}
+
+.homePage_earphoneListingText button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+@media screen and (max-width: 900px) {
+  .homePage_earphoneListingTextContainer {
+    align-items: center;
+  }
+
+  .homePage_earphoneListingText {
+    margin-left: 0em;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .homePage_earphoneListingText h2 {
+    font-size: 1.3em;
+  }
+
+  .homePage_earphoneListingText button {
+    font-size: 0.63em;
+    padding: 1em 2em;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .homePage_earphoneListing {
+    margin-left: 5%;
+    margin-right: 5%;
+    /* margin-bottom: 35%; */
+    flex-direction: column;
+    height: 440px;
+  }
+
+  .homePage_earphoneListing picture {
+    height: 200px;
+    width: 100%;
+  }
+
+  .homePage_earphoneListingImage {
+    height: 200px;
+  }
+
+  .homePage_earphoneListingTextContainer {
+    height: 200px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+
+
+  .homePage_earphoneListingText h2 {
+    font-size: 2em;
+  }
+
+  .homePage_earphoneListingText button {
+    font-size: 0.93em;
+    padding: 1em 2em;
+  }
+
+  .homePage_earphoneListingTextContainer {
+    align-items: start;
+  }
+
+  .homePage_earphoneListingText {
+    margin-left: 1em;
+  }
+}

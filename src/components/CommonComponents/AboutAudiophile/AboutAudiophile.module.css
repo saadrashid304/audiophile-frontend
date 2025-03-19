@@ -1,0 +1,163 @@
+.homePage_aboutAudiophile {
+  /* width: 80%; */
+  height: 588px;
+  margin: 0 10% 10% 10%;
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Manrope", sans-serif;
+}
+.homePage_aboutAudiophileText {
+  width: 50%;
+}
+.homePage_aboutAudiophileText h2 {
+  font-weight: bold;
+  font-size: 2.5em;
+  letter-spacing: 2px;
+  width: 445px;
+  text-transform: uppercase;
+}
+
+.homePage_aboutAudiophileText h2 span {
+  color: #d87d4a;
+}
+
+.homePage_aboutAudiophileText p {
+  font-size: 0.9em;
+  margin-top: 1em;
+  width: 445px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.homePage_aboutAudiophile picture {
+  width: 50%;
+}
+
+.homePage_aboutAudiophileImage {
+  width: 100%;
+  height: 588px;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 1100px) {
+  .homePage_aboutAudiophile {
+    /* flex-direction: column; */
+    height: 500px;
+  }
+  .homePage_aboutAudiophileImage {
+    height: 500px;
+  }
+
+  .homePage_aboutAudiophileText h2 {
+    font-size: 2em;
+    width: 350px;
+  }
+
+  .homePage_aboutAudiophileText p {
+    font-size: 0.7em;
+    width: 350px;
+  }
+
+  .homePage_aboutAudiophileImage {
+    width: 100%;
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 862px) {
+  .homePage_aboutAudiophile {
+    /* flex-direction: column; */
+    height: 450px;
+  }
+
+  .homePage_aboutAudiophileText h2 {
+    font-size: 1.5em;
+    width: 300px;
+  }
+
+  .homePage_aboutAudiophileText p {
+    font-size: 0.5em;
+    width: 300px;
+  }
+
+  .homePage_aboutAudiophileImage {
+    height: 450px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .homePage_aboutAudiophile {
+    flex-direction: column-reverse;
+    height: 580px;
+  }
+
+  .homePage_aboutAudiophile picture {
+    width: 100%;
+    height: 300px;
+  }
+
+  .homePage_aboutAudiophileImage {
+    height: 300px;
+  }
+
+  .homePage_aboutAudiophileText {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .homePage_aboutAudiophileText h2 {
+    font-size: 2em;
+    width: 405px;
+    text-align: center;
+  }
+
+  .homePage_aboutAudiophileText p {
+    font-size: 0.8em;
+    width: 475px;
+    text-align: center;
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .homePage_aboutAudiophile {
+    height: 520px;
+  }
+
+  .homePage_aboutAudiophileText h2 {
+    font-size: 1.5em;
+    width: 380px;
+  }
+
+  .homePage_aboutAudiophileText p {
+    font-size: 0.7em;
+    width: 340px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .homePage_aboutAudiophile {
+    height: 633px;
+    margin: 5% 5% 10% 5%;
+  }
+  .homePage_aboutAudiophileText h2 {
+    font-size: 1.9em;
+    width: auto;
+  }
+
+  .homePage_aboutAudiophileText p {
+    font-size: 0.9em;
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 328px) {
+    .homePage_aboutAudiophile {
+        height: 690px;
+    }
+}

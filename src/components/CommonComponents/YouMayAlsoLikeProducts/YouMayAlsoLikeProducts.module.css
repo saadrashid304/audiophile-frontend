@@ -1,0 +1,156 @@
+.youMayAlsoLike_mainContainer {
+  margin: 0 10% 10% 10%;
+}
+
+.youMayAlsoLike_mainContainer h1 {
+  font-size: 32px;
+  line-height: 36px;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.youMayAlsoLike_allItemsContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.youMayAlsoLike_itemContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.youMayAlsoLike_itemImage {
+  width: 100%;
+  height: 40vh;
+}
+
+.youMayAlsoLike_itemImage img {
+  width: 100%;
+  height: 40vh;
+  border-radius: 10px;
+}
+
+.youMayAlsoLike_itemButton {
+  padding: 1rem 2rem;
+  border: none;
+  background-color: #d87d4a;
+  color: #fff;
+  cursor: pointer;
+}
+
+.youMayAlsoLike_itemButton:hover {
+  background-color: #fbaf85;
+}
+
+@media screen and (max-width: 1220px) {
+  .youMayAlsoLike_itemImage {
+    height: 30vh;
+  }
+
+  .youMayAlsoLike_itemImage img {
+    height: 30vh;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .youMayAlsoLike_itemImage {
+    height: 25vh;
+  }
+
+  .youMayAlsoLike_itemImage img {
+    height: 25vh;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .youMayAlsoLike_mainContainer {
+    margin: 0 5% 10% 5%;
+  }
+
+  .youMayAlsoLike_itemImage {
+    height: 35vh;
+  }
+
+  .youMayAlsoLike_itemImage img {
+    height: 35vh;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .youMayAlsoLike_itemImage {
+    height: 30vh;
+  }
+
+  .youMayAlsoLike_itemImage img {
+    height: 30vh;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .youMayAlsoLike_itemImage {
+    height: 25vh;
+  }
+
+  .youMayAlsoLike_itemImage img {
+    height: 25vh;
+  }
+
+  .youMayAlsoLike_itemName {
+    font-size: 18px;
+  }
+
+  .youMayAlsoLike_itemButton {
+    padding: 0.5rem 1rem;
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .youMayAlsoLike_itemImage {
+    height: 20vh;
+  }
+
+  .youMayAlsoLike_itemImage img {
+    height: 20vh;
+  }
+
+  .youMayAlsoLike_itemName {
+    font-size: 15px;
+  }
+
+  .youMayAlsoLike_itemButton {
+    padding: 0.5rem 0.5rem;
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .youMayAlsoLike_mainContainer {
+    /* margin: 10%; */
+  }
+
+  .youMayAlsoLike_allItemsContainer {
+    flex-direction: column;
+  }
+
+  .youMayAlsoLike_mainContainer h1 {
+    font-size: 25px;
+  }
+
+  .youMayAlsoLike_itemContainer {
+    margin-bottom: 4rem;
+  }
+
+  .youMayAlsoLike_itemName {
+    font-size: 25px;
+  }
+
+  .youMayAlsoLike_itemButton {
+    padding: 1rem 1.5rem;
+    font-size: 15px;
+  }
+}

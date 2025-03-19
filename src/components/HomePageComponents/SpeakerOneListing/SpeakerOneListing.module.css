@@ -1,0 +1,167 @@
+.homePage_speakerListing {
+  background-color: #d87d4a;
+  background-image: url("https://res.cloudinary.com/dbbhecyus/image/upload/v1741762506/b8pnphkxknmzbxovom1w.svg");
+  background-repeat: no-repeat;
+  background-position: -155px top;
+  margin: 0 10% 4% 10%;
+  border-radius: 10px;
+  height: 560px;
+  overflow: hidden;
+  position: relative;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-family: "Manrope", sans-serif;
+}
+
+.homePage_speakerListingImage {
+  width: 347px;
+  height: 430px;
+  position: absolute;
+  bottom: -2%;
+  left: 13%;
+  /* height: 10%; */
+}
+
+.homePage_speakerListingText {
+  width: 41%;
+}
+
+.homePage_speakerListingTitle {
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 58px;
+  letter-spacing: 2px;
+  margin-bottom: 0.5em;
+  width: 50%;
+  text-transform: uppercase;
+}
+
+.homePage_speakerListingDescription {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 0.93em;
+  margin-bottom: 2em;
+  /* line-height: 28px; */
+  width: 70%;
+}
+
+.homePage_speakerListingButton {
+  background-color: #000;
+  color: #fff;
+  font-size: 0.93em;
+  font-weight: 500;
+  padding: 1em 2em;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.homePage_speakerListingButton:hover {
+  background-color: #4c4c4c;
+}
+
+@media screen and (max-width: 1000px) {
+  .homePage_speakerListing {
+    height: 460px;
+    background-position: -240px top;
+  }
+
+  .homePage_speakerListingImage {
+    width: 247px;
+    height: 330px;
+  }
+
+  .homePage_speakerListingText {
+    margin-top: 4rem;
+  }
+
+  .homePage_speakerListingTitle {
+    font-size: 2rem;
+    line-height: 48px;
+  }
+
+  .homePage_speakerListingDescription {
+    font-size: 0.83em;
+    width: 90%;
+  }
+
+  .homePage_speakerListingButton {
+    font-size: 0.83em;
+    padding: 0.75em 1.5em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .homePage_speakerListing {
+    height: 720px;
+    background-position: center -300px;
+    justify-content: center;
+  }
+
+  .homePage_speakerListingImage {
+    width: 160px;
+    height: 203px;
+    top: 10%;
+    left: 35%;
+  }
+
+  .homePage_speakerListingText {
+    margin-top: 13rem;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .homePage_speakerListingTitle {
+    width: 80%;
+    font-size: 3rem;
+    line-height: 58px;
+  }
+
+  .homePage_speakerListingDescription {
+    font-size: 0.93em;
+    width: 100%;
+  }
+
+  .homePage_speakerListingButton {
+    font-size: 0.93em;
+    padding: 1em 2em;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .homePage_speakerListing {
+    height: 600px;
+    margin: 0 5% 10% 5%;
+    background-size: cover;
+    background-position: center -127px;
+    /* align-items: flex-end; */
+  }
+
+  .homePage_speakerListingImage {
+    width: 150px;
+    height: 210px;
+    top: 12%;
+    left: 28%;
+  }
+
+  .homePage_speakerListingText {
+    margin-top: 16rem;
+    width: 80%;
+  }
+
+  .homePage_speakerListingTitle {
+    font-size: 2rem;
+    line-height: 40px;
+  }
+
+  .homePage_speakerListingButton {
+    font-size: 0.83em;
+    padding: 1em 1.5em;
+  }
+}

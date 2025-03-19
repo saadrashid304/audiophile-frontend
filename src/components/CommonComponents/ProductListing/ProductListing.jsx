@@ -1,4 +1,4 @@
-import styles from "./productListing.module.css";
+import styles from "./ProductListing.module.css";
 import PropTypes from "prop-types";
 
 import { ProductListingItem } from "../../CommonComponents";
